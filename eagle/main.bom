@@ -2,3 +2,13 @@ nand gate
 http://fr.farnell.com/texas-instruments/sn74ahc1g00dckr/ci-logique-porte-non-et-2-entrees/dp/1287496
 3, 5
 0.239
+
+LDO 4.0V
+http://fr.farnell.com/micrel-semiconductor/mic5205-4-0ym5-tr/ldo-0-165vdo-0-15a-4v-1-5sot23/dp/2219090
+1, 5
+0.375
+
+dual OPA
+http://fr.farnell.com/texas-instruments/opa2340ua/ampli-op-double-cmos/dp/1101541
+1, 2
+3.81

@@ -15341,11 +15341,11 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="U$2" library="Teensy3.0" deviceset="TEENSY_3.0_ALLPINS" device=""/>
 <part name="D3" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="SPI_CON" library="pinhead" deviceset="PINHD-1X6" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="0204/2V" value="50K"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="0204/2V" value="10K"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="0204/2V" value="400K"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="0204/2V" value="100K"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="R7" library="resistor" deviceset="R-US_" device="0204/2V" value="50K"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="0204/2V" value="10K"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="0204/2V" value="400K"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="0204/2V" value="100K"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="IC1" library="v-reg" deviceset="TS5205" device=""/>
 <part name="C2" library="resistor" deviceset="C-EU" device="025-024X044" value="470p"/>

@@ -13357,6 +13357,11 @@ freq:</text>
 <wire x1="284.48" y1="-17.78" x2="284.48" y2="-12.7" width="0.1524" layer="91"/>
 <label x="254" y="-17.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="21/A7"/>
+<wire x1="226.06" y1="-121.92" x2="243.84" y2="-121.92" width="0.1524" layer="91"/>
+<label x="228.6" y="-121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PUMP_V+" class="0">
 <segment>

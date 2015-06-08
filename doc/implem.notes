@@ -1,0 +1,54 @@
+teensy signals
+
+
+[ ps voltage monitor stage ]
+
+we want one comparator per power supply voltage. this way,
+an interrupt can be generated if one supply drops below a
+certain threshold, or is less than another supply.
+
+possible configurations:
+wake if mon0 < mon1
+wake if mon{0,1} < fixed_threshold
+wake if mon{1,0} > fixed_threshold
+
+The teensy3.1 has 3 comparators, cf. ch32. Each comparator
+has an analog mux for choosing the inputs. cf. p.105.
+
+cmp0_in0: mon0_v+, 51, teesny_11
+cmp0_in1: mon1_v+, 52, teesny_12
+cmp0_in2:        , 53, teensy_28
+cmp0_in3:        , 54, teensy_27
+cmp0_in7: 6b_dac
+
+cmp1_in0: mon0_v+, 45, teensy_23
+cmp1_in1: mon1_v+, 46, teensy_9
+cmp1_in3:        , 18, teensy_DAC_A14
+cmp1_in7: 6b_dac
+
+cmp2_in0: mon0_v+, 28, teensy_3
+cmp2_in1: mon1_v+, 29, teensy_4
+cmp2_in7: 6b_dac
+
+
+[ fet control stage ]
+
+2 general purpose IO pins, 1 PWM for charge pump
+
+pwm: teensy_22
+dis0: teensy_0
+dis1: teensy_1
+
+
+[ sd logging ]
+
+adc0: teensy_15
+adc1: teensy_16
+
+spi_cs: ptd0, teensy_2
+spi_sck: ptd1, teensy_14
+spi_mosi: ptd2, teensy_7
+spi_miso: ptd3, teensy_8
+
+
+[ howto leave from sleep mode using analog comparator interrupt ]

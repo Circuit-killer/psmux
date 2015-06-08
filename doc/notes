@@ -1,0 +1,38 @@
+. input: 2x 12V/2A DC
+. output: 1x 12V/2A and 1x 5V/2A using DC/DC buck converter
+. priority to a given source
+
+. monitoring
+.. signal to know which one is active
+.. voltages ? current ? separate project ?
+
+
+. cross conduction monitor
+.. avoid putting diodes in series
+.. http://powerelectronics.com/discrete-power-semis/power-multiplexer-prevents-cross-current-conduction
+
+. undervoltage protection (uvlo)
+.. when the voltage drops under a given threshold, operation is disabled
+
+
+. references
+.. http://www.linear.com/solutions/5685
+.. tps2113a.pdf
+.. http://www.linear.com/product/LTC1647
+.. http://powerelectronics.com/discrete-power-semis/selecting-n-channel-mosfets-high-side-hot-swap-control
+.. http://www.linear.com/product/LTC4353
+
+
+. components
+.. nand gates
+http://fr.farnell.com/fairchild-semiconductor/74act00sc/circuit-logique-serie-74act-cmos/dp/1014144
+http://fr.farnell.com/texas-instruments/sn74ls00d/circuit-logique-2-entrees-nand/dp/9592156
+
+.. level translators
+http://fr.farnell.com/on-semiconductor/mc14050bdr2g/hex-non-inverting-buffer-soic/dp/1365191
+
+
+. logics
+.. 5v atmega328p. the idea is to consume as little as possible
+.. analog comparators: compares ain0 and ain1. ACO set when ain0 > (ain1 or adcN)
+.. include a SPI extension port and develop a 5v spi usd memory for data logging

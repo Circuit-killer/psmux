@@ -35,16 +35,16 @@ cmp2_in7: 6b_dac
 
 2 general purpose IO pins, 1 PWM for charge pump
 
-pwm: teensy_22 (44, FTM0_CH0)
-pwm#: teensy_21 (63, FTM0_CH6)
+pwm: teensy_16 (35, FTM1_CH0)
+pwm#: teensy_17 (36, FTM1_CH1)
 dis0: teensy_0
 dis1: teensy_1
 
 
 [ sd logging ]
 
-adc0: teensy_15
-adc1: teensy_16
+adc0: teensy_18
+adc1: teensy_19
 
 spi_cs: ptd0, teensy_2
 spi_sck: ptd1, teensy_14

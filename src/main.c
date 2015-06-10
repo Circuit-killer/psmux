@@ -34,6 +34,10 @@ static void pwm_start(void)
 #define FTM1_FREQ (F_CPU / FTM1_DIV)
   SIM_SCGC6 |= 1 << 25;
 
+  /* disable counter clocking */
+  /* important, otherwise counters do not get load */
+  FTM1_SC = 0;
+
   /* configure pin mux */
   PORTB_PCR0 = 3 << 8;
   PORTB_PCR1 = 3 << 8;
@@ -44,7 +48,6 @@ static void pwm_start(void)
   /* set pwm 16 bits counter and modulos */
 #define PWM_FREQ 1000
 #define PWM_DUTY (PWM_FREQ / 2)
-  FTM1_CNT = 0;
   FTM1_MOD = PWM_FREQ;
   FTM1_C0V = PWM_DUTY;
   FTM1_C1V = PWM_FREQ;
@@ -78,7 +81,7 @@ static void pwm_start(void)
   FTM1_QDCTRL = 0;
 
   /* synchronization configuration */
-  FTM1_SYNCONF = 0;
+  FTM1_SYNCONF = (1 << 7) | (1 << 2);
 
   /* channel inversion configuration */
   FTM1_INVCTRL = 0;
@@ -133,17 +136,15 @@ static void pwm_set_low(void)
 
 int main(void)
 {
-  serial_setup();
   led_setup();
+
   pwm_start();
 
   while (1)
   {
-    SERIAL_WRITE_STRING("x\r\n");
     led_set_val(1);
     delay(250);
 
-    SERIAL_WRITE_STRING("y\r\n");
     led_set_val(0);
     delay(250);
   }

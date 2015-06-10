@@ -9,6 +9,20 @@ extern void delay(uint32_t);
 
 /* pwm */
 
+/* FTM1 clock (ie. F_CPU) prescaler. must be at least 2 */
+#define FTM1_DIV (2)
+
+static inline uint16_t pwm_freq_to_counter(uint32_t freq)
+{
+  /* freq max: 12MHz */
+  /* freq resoultion: 366Hz */
+
+  /* 1 / freq = counter / (f_cpu / f_div); */
+  /* counter = f_cpu / (f_div * freq) */
+
+  return (uint16_t)(F_CPU / (FTM1_DIV * freq));
+}
+
 static void pwm_start(void)
 {
   /* setup ftm1 so that channel A is set as a pwm */
@@ -30,8 +44,6 @@ static void pwm_start(void)
 
   /* enable ftm1 clock */
   /* note, p.823: FTM1_FREQ can not exceed F_CPU / 2 */
-#define FTM1_DIV (2)
-#define FTM1_FREQ (F_CPU / FTM1_DIV)
   SIM_SCGC6 |= 1 << 25;
 
   /* disable counter clocking */
@@ -46,11 +58,13 @@ static void pwm_start(void)
   FTM1_MODE = 1 << 2;
 
   /* set pwm 16 bits counter and modulos */
-#define PWM_FREQ 1000
-#define PWM_DUTY (PWM_FREQ / 2)
-  FTM1_MOD = PWM_FREQ;
-  FTM1_C0V = PWM_DUTY;
-  FTM1_C1V = PWM_FREQ;
+  /* duty is set to 50%, ie. frequency / 2 */
+  /* complementary channel inverted from n/2 to n */
+#define PWM_FREQ 100000
+  const uint16_t n = pwm_freq_to_counter(PWM_FREQ);
+  FTM1_MOD = n;
+  FTM1_C0V = n / 2;
+  FTM1_C1V = n;
 
   /* load counter initial value */
   /* note p.835: only use FTM1_CNTIN = 0 */

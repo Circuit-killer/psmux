@@ -13,9 +13,9 @@ http://fr.farnell.com/stmicroelectronics/ldk220c40r/faible-courant-iq-200-mafaib
 1, 2
 0.725
 
-diode schottky
+schottky diode
 http://fr.farnell.com/diodes-inc/b140-13-f/diodeschottky40v1asma/dp/1843670
-3, 10
+5, 10
 0.107
 
 mosfet n channel
@@ -50,7 +50,7 @@ http://fr.farnell.com/panasonic-electronic-components/eeefk1e101xp/condensateur-
 
 capacitor tantalum 4.7uF 25V
 http://fr.farnell.com/avx/tajb475k025rnj/condensateur-tantale-4-7uf-25v/dp/197506
-2, 5
+5, 10
 0.397
 
 capacitor 470pF 100V

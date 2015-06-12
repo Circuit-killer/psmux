@@ -5,8 +5,18 @@ http://fr.farnell.com/texas-instruments/sn74ahc1g00dckr/ci-logique-porte-non-et-
 
 LDO 4.0V
 http://fr.farnell.com/micrel-semiconductor/mic5205-4-0ym5-tr/ldo-0-165vdo-0-15a-4v-1-5sot23/dp/2219090
-1, 5
+1, 2
 0.375
+
+LDO 4.0V
+http://fr.farnell.com/stmicroelectronics/ldk220c40r/faible-courant-iq-200-mafaible/dp/2435556
+1, 2
+0.725
+
+diode schottky
+http://fr.farnell.com/diodes-inc/b140-13-f/diodeschottky40v1asma/dp/1843670
+3, 10
+0.107
 
 mosfet n channel
 http://fr.farnell.com/vishay-siliconix/si4166dy-t1-ge3/mosfet-canal-n-30v-0-0032ohm-30/dp/2335305
@@ -38,10 +48,10 @@ http://fr.farnell.com/panasonic-electronic-components/eeefk1e101xp/condensateur-
 1, 5
 0.3
 
-capacitor tantalum 2.2uF 25V
-http://fr.farnell.com/avx/tpsb225k025r1200/condensateur-tantale-2-2uf-25v/dp/1432582
+capacitor tantalum 4.7uF 25V
+http://fr.farnell.com/avx/tajb475k025rnj/condensateur-tantale-4-7uf-25v/dp/197506
 2, 5
-0.317
+0.397
 
 capacitor 470pF 100V
 http://fr.farnell.com/avx/08051c471kat2a/condensateur-mlcc-x7r-470pf-100v/dp/2280665

@@ -33,12 +33,12 @@ http://fr.farnell.com/bourns/cr0805-fx-1002elf/resistance-10k-0-125w-1/dp/161252
 2, 10
 0.02
 
-capacitor alu electrolyt 100uF 25V
+capacitor electrolytic 100uF 25V
 http://fr.farnell.com/panasonic-electronic-components/eeefk1e101xp/condensateur-elec-alu-100uf-25v/dp/1850109
 1, 5
 0.3
 
-capacitor tantal 2.2uF 25V
+capacitor tantalum 2.2uF 25V
 http://fr.farnell.com/avx/tpsb225k025r1200/condensateur-tantale-2-2uf-25v/dp/1432582
 2, 5
 0.317

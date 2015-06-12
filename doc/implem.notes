@@ -15,19 +15,16 @@ wake if mon{1,0} > fixed_threshold
 The teensy3.1 has 3 comparators, cf. ch32. Each comparator
 has an analog mux for choosing the inputs. cf. p.105.
 
-cmp0_in0: mon0_v+, 51, teesny_11
-cmp0_in1: mon1_v+, 52, teesny_12
-cmp0_in2:        , 53, teensy_28
-cmp0_in3:        , 54, teensy_27
+cmp0_in0: pow0_vmon, 51, teesny_11
+cmp0_in1: pow1_vmon, 52, teesny_12
 cmp0_in7: 6b_dac
 
-cmp1_in0: mon0_v+, 45, teensy_23
-cmp1_in1: mon1_v+, 46, teensy_9
-cmp1_in3:        , 18, teensy_DAC_A14
+cmp1_in0: pow0_vmon, 45, teensy_23
+cmp1_in1: pow1_vmon, 46, teensy_9
 cmp1_in7: 6b_dac
 
-cmp2_in0: mon0_v+, 28, teensy_3
-cmp2_in1: mon1_v+, 29, teensy_4
+cmp2_in0: pow0_vmon, 28, teensy_3
+cmp2_in1: pow1_vmon, 29, teensy_4
 cmp2_in7: 6b_dac
 
 
@@ -35,21 +32,21 @@ cmp2_in7: 6b_dac
 
 2 general purpose IO pins, 1 PWM for charge pump
 
-pwm: teensy_16 (35, FTM1_CH0)
-pwm#: teensy_17 (36, FTM1_CH1)
-dis0: teensy_0
-dis1: teensy_1
+pump_pwm: 35, teensy_16
+pump_pwm#: 36, teensy_17
+pow0_en: 39, teensy_0
+pow1_en: 40, teensy_1
 
 
 [ sd logging ]
 
-adc0: teensy_18
-adc1: teensy_19
+adc0: 38, teensy_18
+adc1: 37, teensy_19
 
-spi_cs: ptd0, teensy_2
-spi_sck: ptd1, teensy_14
-spi_mosi: ptd2, teensy_7
-spi_miso: ptd3, teensy_8
+spi_cs: 57, teensy_2
+spi_sck: 58, teensy_14
+spi_mosi: 59, teensy_7
+spi_miso: 60, teensy_8
 
 
 [ howto leave from sleep mode using analog comparator interrupt ]

@@ -18794,7 +18794,7 @@ output: input + 5V
 freq:</text>
 <text x="254" y="7.62" size="1.778" layer="97">TODO: choose Schottky diodes</text>
 <text x="320.04" y="2.54" size="1.778" layer="97">power paths</text>
-<text x="137.16" y="10.16" size="1.778" layer="97">TODO: choose diodes</text>
+<text x="137.16" y="10.16" size="1.778" layer="97">TODO: choose diodes (non Schottky)</text>
 <text x="391.16" y="2.54" size="1.778" layer="97">voltage monitoring paths
 4.9:1 divider</text>
 <text x="254" y="5.08" size="1.778" layer="97">TODO: choose caps</text>

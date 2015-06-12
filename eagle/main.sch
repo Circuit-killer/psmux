@@ -14002,63 +14002,6 @@ grid 5.08 mm</description>
 <rectangle x1="0.7112" y1="-1.4954" x2="1.1684" y2="-0.9112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.4954" x2="-0.7112" y2="-0.9112" layer="51"/>
 </package>
-<package name="SOT89-BCE">
-<description>SOT89 Basis Collector Emitter</description>
-<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
-<wire x1="2.235" y1="1.219" x2="2.235" y2="-1.245" width="0.127" layer="51"/>
-<wire x1="-2.235" y1="-1.245" x2="-2.235" y2="1.219" width="0.127" layer="51"/>
-<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.127" layer="51"/>
-<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.1998" layer="51"/>
-<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.1998" layer="51"/>
-<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.1998" layer="51"/>
-<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.1998" layer="51"/>
-<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.1998" layer="51"/>
-<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.1998" layer="51"/>
-<smd name="B" x="-1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
-<smd name="E" x="1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
-<smd name="C" x="0" y="-1.727" dx="0.8" dy="1.9" layer="1" stop="no" cream="no"/>
-<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.4051" y="-4.3449" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
-<rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
-<rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
-<rectangle x1="-0.4" y1="-2.68" x2="0.4" y2="-1.28" layer="31"/>
-<rectangle x1="-0.5" y1="-2.78" x2="0.5" y2="-1.18" layer="29"/>
-<polygon width="0.1998" layer="51">
-<vertex x="-0.7874" y="1.3208"/>
-<vertex x="-0.7874" y="1.5748"/>
-<vertex x="-0.3556" y="2.0066"/>
-<vertex x="0.3048" y="2.0066"/>
-<vertex x="0.3556" y="2.0066"/>
-<vertex x="0.7874" y="1.5748"/>
-<vertex x="0.7874" y="1.2954"/>
-<vertex x="-0.7874" y="1.2954"/>
-</polygon>
-<polygon width="1.7" layer="29">
-<vertex x="-0.275" y="2.025"/>
-<vertex x="-0.275" y="-0.15"/>
-<vertex x="0.25" y="-0.15"/>
-<vertex x="0.25" y="2.025"/>
-</polygon>
-<polygon width="1.3" layer="31">
-<vertex x="-0.25" y="2.05"/>
-<vertex x="0.275" y="2.05"/>
-<vertex x="0.275" y="-0.125"/>
-<vertex x="-0.25" y="-0.125"/>
-</polygon>
-<polygon width="0.3" layer="1">
-<vertex x="0.25" y="-2.05"/>
-<vertex x="-0.25" y="-2.05"/>
-<vertex x="-0.25" y="-0.75" curve="-90"/>
-<vertex x="-0.875" y="-0.125"/>
-<vertex x="-0.875" y="2.05" curve="-90"/>
-<vertex x="-0.225" y="2.625"/>
-<vertex x="0.25" y="2.625" curve="-90"/>
-<vertex x="0.875" y="2.025"/>
-<vertex x="0.875" y="-0.125" curve="-90"/>
-<vertex x="0.25" y="-0.75"/>
-</polygon>
-</package>
 <package name="SOT37">
 <description>&lt;b&gt;SOT-37&lt;/b&gt;&lt;p&gt;
 Motorola CASE 317A-01 ISSUE B&lt;br&gt;
@@ -14149,6 +14092,63 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <pad name="B" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOT89-BCE">
+<description>SOT98 Basis Collector Emitter</description>
+<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
+<wire x1="2.235" y1="1.219" x2="2.235" y2="-1.245" width="0.127" layer="51"/>
+<wire x1="-2.235" y1="-1.245" x2="-2.235" y2="1.219" width="0.127" layer="51"/>
+<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.127" layer="51"/>
+<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.1998" layer="51"/>
+<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.1998" layer="51"/>
+<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.1998" layer="51"/>
+<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.1998" layer="51"/>
+<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.1998" layer="51"/>
+<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.1998" layer="51"/>
+<smd name="B" x="-1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
+<smd name="E" x="1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
+<smd name="C" x="0" y="-1.727" dx="0.8" dy="1.9" layer="1" stop="no" cream="no"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.4051" y="-4.3449" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
+<rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
+<rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
+<rectangle x1="-0.4" y1="-2.68" x2="0.4" y2="-1.28" layer="31"/>
+<rectangle x1="-0.5" y1="-2.78" x2="0.5" y2="-1.18" layer="29"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-0.7874" y="1.3208"/>
+<vertex x="-0.7874" y="1.5748"/>
+<vertex x="-0.3556" y="2.0066"/>
+<vertex x="0.3048" y="2.0066"/>
+<vertex x="0.3556" y="2.0066"/>
+<vertex x="0.7874" y="1.5748"/>
+<vertex x="0.7874" y="1.2954"/>
+<vertex x="-0.7874" y="1.2954"/>
+</polygon>
+<polygon width="1.7" layer="29">
+<vertex x="-0.275" y="2.025"/>
+<vertex x="-0.275" y="-0.15"/>
+<vertex x="0.25" y="-0.15"/>
+<vertex x="0.25" y="2.025"/>
+</polygon>
+<polygon width="1.3" layer="31">
+<vertex x="-0.25" y="2.05"/>
+<vertex x="0.275" y="2.05"/>
+<vertex x="0.275" y="-0.125"/>
+<vertex x="-0.25" y="-0.125"/>
+</polygon>
+<polygon width="0.3" layer="1">
+<vertex x="0.25" y="-2.05"/>
+<vertex x="-0.25" y="-2.05"/>
+<vertex x="-0.25" y="-0.75" curve="-90"/>
+<vertex x="-0.875" y="-0.125"/>
+<vertex x="-0.875" y="2.05" curve="-90"/>
+<vertex x="-0.225" y="2.625"/>
+<vertex x="0.25" y="2.625" curve="-90"/>
+<vertex x="0.875" y="2.025"/>
+<vertex x="0.875" y="-0.125" curve="-90"/>
+<vertex x="0.25" y="-0.75"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -14406,18 +14406,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name=""/>
-<technology name="29"/>
-<technology name="92"/>
 <technology name="BC317"/>
 <technology name="BC318"/>
 <technology name="BC319"/>
-<technology name="MPSA06"/>
-<technology name="MPSA13"/>
-<technology name="MPSA14"/>
-<technology name="MPSA18"/>
-<technology name="MPSA28"/>
-<technology name="MPSA42"/>
-<technology name="MPSA44"/>
 </technologies>
 </device>
 <device name="TO92-E1" package="TO92-E1">
@@ -14614,6 +14605,15 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <technology name="BF393"/>
 <technology name="BF844"/>
 <technology name="MPS2222A"/>
+<technology name="MPSA06"/>
+<technology name="MPSA13"/>
+<technology name="MPSA14"/>
+<technology name="MPSA18"/>
+<technology name="MPSA29"/>
+<technology name="MPSA42"/>
+<technology name="MPSA44"/>
+<technology name="MPSA92"/>
+<technology name="MPSA93"/>
 <technology name="MPSL51"/>
 <technology name="MPSW42"/>
 </technologies>
@@ -15232,9 +15232,8 @@ body 3.9 mm/JEDEC MS-012AA&lt;p&gt;
 <part name="D1" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="D2" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="C1" library="rcl" deviceset="CPOL-US" device="085CS-1AR"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="0204/2V" value="100K"/>
-<part name="T1" library="transistor" deviceset="*-NPN-" device="TO92"/>
-<part name="R4" library="resistor" deviceset="R-US_" device="0204/2V" value="10K"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="M0805" value="100K"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="U1" library="TI-SN74AHC1G00DCKR@E" deviceset="SN74AHC1G00DCKR" device=""/>
 <part name="U2" library="TI-SN74AHC1G00DCKR@E" deviceset="SN74AHC1G00DCKR" device=""/>
 <part name="U3" library="TI-SN74AHC1G00DCKR@E" deviceset="SN74AHC1G00DCKR" device=""/>
@@ -15246,23 +15245,24 @@ body 3.9 mm/JEDEC MS-012AA&lt;p&gt;
 <part name="C6" library="rcl" deviceset="CPOL-US" device="085CS-1AR"/>
 <part name="D7" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="0204/2V" value="100K"/>
-<part name="T2" library="transistor" deviceset="*-NPN-" device="TO92"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="0204/2V" value="10K"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="M0805" value="100K"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="U$2" library="Teensy3.0" deviceset="TEENSY_3.0_ALLPINS" device=""/>
 <part name="D3" library="diode" deviceset="1N4148" device="DO35-7"/>
 <part name="SPI_CON" library="pinhead" deviceset="PINHD-1X6" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="0204/2V" value="400K"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="0204/2V" value="100K"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="M0805" value="390K"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="M0805" value="100K"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="R7" library="resistor" deviceset="R-US_" device="0204/2V" value="400K"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="0204/2V" value="100K"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="M0805" value="390K"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="M0805" value="100K"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="IC1" library="v-reg" deviceset="TS5205" device=""/>
 <part name="C2" library="resistor" deviceset="C-EU" device="025-024X044" value="470p"/>
 <part name="Q5" library="transistor-fet" deviceset="SI4840DY" device=""/>
 <part name="Q1" library="transistor-fet" deviceset="SI4840DY" device=""/>
+<part name="T3" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-40"/>
+<part name="T4" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-40"/>
 </parts>
 <sheets>
 <sheet>
@@ -15286,15 +15286,13 @@ output: 4V, 150mA</text>
 output: input + 5V
 freq:</text>
 <text x="254" y="7.62" size="1.778" layer="97">TODO: choose Schottky diodes</text>
-<text x="320.04" y="15.24" size="1.778" layer="97">power paths</text>
+<text x="320.04" y="2.54" size="1.778" layer="97">power paths</text>
 <text x="137.16" y="7.62" size="1.778" layer="97">TODO: choose diodes</text>
-<text x="391.16" y="7.62" size="1.778" layer="97">voltage monitoring paths</text>
+<text x="391.16" y="2.54" size="1.778" layer="97">voltage monitoring paths
+4.9:1 divider</text>
 <text x="226.06" y="10.16" size="1.778" layer="97">TODO: choose caps</text>
 <text x="254" y="5.08" size="1.778" layer="97">TODO: choose caps</text>
 <text x="40.64" y="-45.72" size="1.778" layer="97">SPI connector</text>
-<text x="320.04" y="7.62" size="1.778" layer="97">TODO: choose FET</text>
-<text x="320.04" y="5.08" size="1.778" layer="97">TODO: choose resistors</text>
-<text x="391.16" y="2.54" size="1.778" layer="97">TODO: choose resistors</text>
 <text x="40.64" y="10.16" size="1.778" layer="97">TODO: choose connectors</text>
 <text x="365.76" y="-20.32" size="1.778" layer="97">SI4166DY</text>
 <text x="365.76" y="-63.5" size="1.778" layer="97">SI4166DY</text>
@@ -15311,10 +15309,6 @@ freq:</text>
 </instance>
 <instance part="C1" gate="G$1" x="162.56" y="-10.16"/>
 <instance part="R2" gate="G$1" x="340.36" y="-27.94"/>
-<instance part="T1" gate="G$1" x="350.52" y="-27.94" smashed="yes">
-<attribute name="NAME" x="345.44" y="-25.4" size="1.778" layer="95"/>
-<attribute name="VALUE" x="340.36" y="-22.86" size="1.778" layer="96"/>
-</instance>
 <instance part="R4" gate="G$1" x="353.06" y="-12.7" rot="R270"/>
 <instance part="U1" gate="A" x="93.98" y="-10.16"/>
 <instance part="U2" gate="A" x="93.98" y="-33.02"/>
@@ -15334,10 +15328,6 @@ freq:</text>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="353.06" y="-38.1"/>
 <instance part="R1" gate="G$1" x="340.36" y="-71.12"/>
-<instance part="T2" gate="G$1" x="350.52" y="-71.12" smashed="yes">
-<attribute name="NAME" x="345.44" y="-68.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="340.36" y="-66.04" size="1.778" layer="96"/>
-</instance>
 <instance part="R3" gate="G$1" x="353.06" y="-55.88" rot="R270"/>
 <instance part="SUPPLY2" gate="GND" x="353.06" y="-81.28"/>
 <instance part="U$2" gate="G$1" x="223.52" y="-68.58" smashed="yes">
@@ -15362,6 +15352,8 @@ freq:</text>
 <instance part="Q1" gate="G$1" x="363.22" y="-60.96" smashed="yes">
 <attribute name="NAME" x="365.76" y="-60.96" size="1.778" layer="95"/>
 </instance>
+<instance part="T3" gate="G$1" x="350.52" y="-27.94"/>
+<instance part="T4" gate="G$1" x="350.52" y="-71.12"/>
 </instances>
 <busses>
 </busses>
@@ -15450,14 +15442,14 @@ freq:</text>
 <label x="226.06" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T1" gate="G$1" pin="E"/>
 <wire x1="353.06" y1="-33.02" x2="353.06" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
+<pinref part="T3" gate="G$1" pin="E"/>
 </segment>
 <segment>
-<pinref part="T2" gate="G$1" pin="E"/>
 <wire x1="353.06" y1="-76.2" x2="353.06" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<pinref part="T4" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
@@ -15666,19 +15658,19 @@ freq:</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="T1" gate="G$1" pin="C"/>
 <wire x1="353.06" y1="-17.78" x2="353.06" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="-20.32" x2="353.06" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="-20.32" x2="358.14" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="353.06" y="-20.32"/>
 <pinref part="Q5" gate="G$1" pin="G"/>
+<pinref part="T3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="T1" gate="G$1" pin="B"/>
 <wire x1="345.44" y1="-27.94" x2="347.98" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="T3" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="POW0_DIS" class="0">
@@ -15696,19 +15688,19 @@ freq:</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="T2" gate="G$1" pin="C"/>
 <wire x1="353.06" y1="-60.96" x2="353.06" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="-63.5" x2="353.06" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="-63.5" x2="358.14" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="353.06" y="-63.5"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="T4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="T2" gate="G$1" pin="B"/>
 <wire x1="345.44" y1="-71.12" x2="347.98" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="T4" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="MCU_V+" class="0">

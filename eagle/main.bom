@@ -8,15 +8,30 @@ http://fr.farnell.com/micrel-semiconductor/mic5205-4-0ym5-tr/ldo-0-165vdo-0-15a-
 1, 5
 0.375
 
-dual OPA
-http://fr.farnell.com/texas-instruments/opa2340ua/ampli-op-double-cmos/dp/1101541
-1, 2
-3.81
-
-n mosfet
+mosfet n channel
 http://fr.farnell.com/vishay-siliconix/si4166dy-t1-ge3/mosfet-canal-n-30v-0-0032ohm-30/dp/2335305
 2, 5
 0.715
+
+npn
+http://fr.farnell.com/multicomp/bc817-40/transistor-npn-0-5a-45v-sot23/dp/1798081
+2, 5
+0.132
+
+resistor 390K
+http://fr.farnell.com/vishay-draloric/crcw0805390kfkea/resistance-0805-390k-1/dp/2139075
+2, 10
+0.0126
+
+resistor 100K
+http://fr.farnell.com/vishay-draloric/crcw0805100kfkea/resistance-100k-0-125w-1-0805/dp/1469860
+4, 10
+0,02
+
+resistor 10K
+http://fr.farnell.com/bourns/cr0805-fx-1002elf/resistance-10k-0-125w-1/dp/1612522
+2, 10
+0,02
 
 
 n mosfet candidates

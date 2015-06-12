@@ -26,12 +26,17 @@ http://fr.farnell.com/vishay-draloric/crcw0805390kfkea/resistance-0805-390k-1/dp
 resistor 100K
 http://fr.farnell.com/vishay-draloric/crcw0805100kfkea/resistance-100k-0-125w-1-0805/dp/1469860
 4, 10
-0,02
+0.02
 
 resistor 10K
 http://fr.farnell.com/bourns/cr0805-fx-1002elf/resistance-10k-0-125w-1/dp/1612522
 2, 10
-0,02
+0.02
+
+capacitor 100uF 25V
+http://fr.farnell.com/panasonic-electronic-components/eeefk1e101xp/condensateur-elec-alu-100uf-25v/dp/1850109
+1, 5
+0.3
 
 
 n mosfet candidates

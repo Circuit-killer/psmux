@@ -14273,8 +14273,8 @@ LDK220</text>
 <instance part="R3" gate="G$1" x="353.06" y="-55.88" rot="R270"/>
 <instance part="SUPPLY2" gate="GND" x="353.06" y="-81.28"/>
 <instance part="U$2" gate="G$1" x="223.52" y="-53.34" smashed="yes">
-<attribute name="NAME" x="220.472" y="-19.05" size="1.27" layer="95" font="vector" ratio="15"/>
-<attribute name="VALUE" x="213.106" y="-27.94" size="1.27" layer="96" font="vector" ratio="15"/>
+<attribute name="NAME" x="223.012" y="-29.21" size="1.27" layer="95" font="vector" ratio="15"/>
+<attribute name="VALUE" x="213.106" y="-78.74" size="1.27" layer="96" font="vector" ratio="15"/>
 </instance>
 <instance part="SPI_CON" gate="A" x="43.18" y="-60.96" rot="MR0"/>
 <instance part="R5" gate="G$1" x="408.94" y="-10.16" rot="R270"/>

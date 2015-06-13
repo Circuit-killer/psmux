@@ -11119,7 +11119,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </library>
 <library name="Teensy3.0">
 <packages>
-<package name="TEENSY_3.0_ALLPINS">
+<package name="TEENSY_3.0_BASIC-PGM">
 <pad name="GND" x="-7.62" y="16.51" drill="0.9652"/>
 <pad name="0" x="-7.62" y="13.97" drill="0.9652"/>
 <pad name="1" x="-7.62" y="11.43" drill="0.9652"/>
@@ -11137,8 +11137,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pad name="VBAT" x="-5.08" y="-16.51" drill="0.9652"/>
 <pad name="3.3V1" x="-2.54" y="-16.51" drill="0.9652"/>
 <pad name="GND1" x="0" y="-16.51" drill="0.9652"/>
-<pad name="PGM" x="2.54" y="-16.51" drill="0.9652"/>
-<pad name="RESET" x="5.08" y="-16.51" drill="0.9652"/>
 <pad name="13" x="7.62" y="-16.51" drill="0.9652"/>
 <pad name="14/A0" x="7.62" y="-13.97" drill="0.9652"/>
 <pad name="15/A1" x="7.62" y="-11.43" drill="0.9652"/>
@@ -11165,93 +11163,60 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-8.89" y1="-17.78" x2="-8.89" y2="17.78" width="0.2032" layer="21"/>
 <wire x1="-8.89" y1="17.78" x2="-1.27" y2="17.78" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="17.78" x2="-1.27" y2="16.51" width="0.2032" layer="21"/>
-<text x="-3.81" y="13.97" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.81" y="5.08" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<pad name="VUSB" x="5.08" y="13.97" drill="0.9652"/>
-<pad name="AREF" x="5.08" y="8.89" drill="0.9652"/>
-<pad name="A10" x="5.08" y="6.35" drill="0.9652"/>
-<pad name="A11" x="5.08" y="3.81" drill="0.9652"/>
-<pad name="28" x="0" y="-13.97" drill="0.9652"/>
-<pad name="29" x="2.54" y="-13.97" drill="0.9652"/>
-<pad name="27" x="0" y="-11.43" drill="0.9652"/>
-<pad name="26" x="0" y="-8.89" drill="0.9652"/>
-<pad name="25" x="0" y="-6.35" drill="0.9652"/>
-<pad name="24" x="0" y="-3.81" drill="0.9652"/>
-<pad name="30" x="2.54" y="-11.43" drill="0.9652"/>
-<pad name="31" x="2.54" y="-8.89" drill="0.9652"/>
-<pad name="32" x="2.54" y="-6.35" drill="0.9652"/>
-<pad name="33" x="2.54" y="-3.81" drill="0.9652"/>
-<pad name="3.3V2" x="2.54" y="-1.27" drill="0.9652"/>
-<pad name="A13" x="2.54" y="1.27" drill="0.9652"/>
-<pad name="GND2" x="0" y="-1.27" drill="0.9652"/>
-<pad name="A12" x="0" y="1.27" drill="0.9652"/>
+<text x="-2.54" y="13.97" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.81" y="-13.97" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<pad name="RESET" x="5.08" y="-16.51" drill="0.9652"/>
 </package>
 </packages>
 <symbols>
-<symbol name="TEENSY_3.0_ALLPINS">
-<wire x1="-10.16" y1="-35.56" x2="10.16" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-35.56" x2="10.16" y2="33.02" width="0.254" layer="94"/>
-<wire x1="10.16" y1="33.02" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="33.02" x2="-10.16" y2="-35.56" width="0.254" layer="94"/>
-<pin name="12" x="-15.24" y="-2.54" visible="pin" length="middle"/>
-<pin name="11" x="-15.24" y="0" visible="pin" length="middle"/>
-<pin name="10" x="-15.24" y="2.54" visible="pin" length="middle"/>
-<pin name="9" x="-15.24" y="5.08" visible="pin" length="middle"/>
-<pin name="8" x="-15.24" y="7.62" visible="pin" length="middle"/>
-<pin name="7" x="-15.24" y="10.16" visible="pin" length="middle"/>
-<pin name="6" x="-15.24" y="12.7" visible="pin" length="middle"/>
-<pin name="5" x="-15.24" y="15.24" visible="pin" length="middle"/>
-<pin name="4" x="-15.24" y="17.78" visible="pin" length="middle"/>
-<pin name="3" x="-15.24" y="20.32" visible="pin" length="middle"/>
-<pin name="2" x="-15.24" y="22.86" visible="pin" length="middle"/>
-<pin name="1" x="-15.24" y="25.4" visible="pin" length="middle"/>
-<pin name="0" x="-15.24" y="27.94" visible="pin" length="middle"/>
-<pin name="GND" x="15.24" y="20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="VIN" x="15.24" y="27.94" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="AGND" x="15.24" y="5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="3.3V" x="15.24" y="25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="23/A9" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="22/A8" x="15.24" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="21/A7" x="15.24" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="20/A6" x="15.24" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="19/A5" x="15.24" y="-20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="18/A4" x="15.24" y="-22.86" visible="pin" length="middle" rot="R180"/>
-<pin name="17/A3" x="15.24" y="-25.4" visible="pin" length="middle" rot="R180"/>
-<pin name="16/A2" x="15.24" y="-27.94" visible="pin" length="middle" rot="R180"/>
-<pin name="15/A1" x="15.24" y="-30.48" visible="pin" length="middle" rot="R180"/>
-<pin name="14/A0" x="15.24" y="-33.02" visible="pin" length="middle" rot="R180"/>
-<pin name="13" x="-15.24" y="-5.08" visible="pin" length="middle"/>
-<pin name="RESET" x="15.24" y="15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="PGM" x="15.24" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="VBAT" x="15.24" y="22.86" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<text x="-3.048" y="34.29" size="1.27" layer="95" font="vector" ratio="15">&gt;NAME</text>
-<text x="-2.794" y="-38.1" size="1.27" layer="96" font="vector" ratio="15">&gt;VALUE</text>
-<pin name="A10" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="A11" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="AREF" x="15.24" y="7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="VUSB" x="15.24" y="30.48" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="24" x="-15.24" y="-7.62" visible="pin" length="middle"/>
-<pin name="25" x="-15.24" y="-10.16" visible="pin" length="middle"/>
-<pin name="26" x="-15.24" y="-12.7" visible="pin" length="middle"/>
-<pin name="27" x="-15.24" y="-15.24" visible="pin" length="middle"/>
-<pin name="28" x="-15.24" y="-17.78" visible="pin" length="middle"/>
-<pin name="29" x="-15.24" y="-20.32" visible="pin" length="middle"/>
-<pin name="30" x="-15.24" y="-22.86" visible="pin" length="middle"/>
-<pin name="31" x="-15.24" y="-25.4" visible="pin" length="middle"/>
-<pin name="32" x="-15.24" y="-27.94" visible="pin" length="middle"/>
-<pin name="33" x="-15.24" y="-30.48" visible="pin" length="middle"/>
-<pin name="A12" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="A13" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<symbol name="TEENSY_3.0_BASIC-PGM">
+<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<pin name="12" x="-15.24" y="-17.78" visible="pin" length="middle"/>
+<pin name="11" x="-15.24" y="-15.24" visible="pin" length="middle"/>
+<pin name="10" x="-15.24" y="-12.7" visible="pin" length="middle"/>
+<pin name="9" x="-15.24" y="-10.16" visible="pin" length="middle"/>
+<pin name="8" x="-15.24" y="-7.62" visible="pin" length="middle"/>
+<pin name="7" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="6" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="5" x="-15.24" y="0" visible="pin" length="middle"/>
+<pin name="4" x="-15.24" y="2.54" visible="pin" length="middle"/>
+<pin name="3" x="-15.24" y="5.08" visible="pin" length="middle"/>
+<pin name="2" x="-15.24" y="7.62" visible="pin" length="middle"/>
+<pin name="1" x="-15.24" y="10.16" visible="pin" length="middle"/>
+<pin name="0" x="-15.24" y="12.7" visible="pin" length="middle"/>
+<pin name="GND" x="15.24" y="10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VIN" x="15.24" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="AGND" x="15.24" y="7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="3.3V" x="15.24" y="12.7" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="23/A9" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="22/A8" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="21/A7" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="20/A6" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="19/A5" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="18/A4" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="17/A3" x="15.24" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="16/A2" x="15.24" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="15/A1" x="15.24" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="14/A0" x="15.24" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="13" x="-15.24" y="-20.32" visible="pin" length="middle"/>
+<pin name="RESET" x="-15.24" y="20.32" visible="pin" length="middle"/>
+<pin name="VBAT" x="15.24" y="20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<text x="-3.048" y="24.13" size="1.27" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-2.794" y="-25.4" size="1.27" layer="96" font="vector" ratio="15">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEENSY_3.0_ALLPINS">
-<description>Teensy 3.0 with all pin holes and optional SMD-mount unshrouded header on bottom of Teensy 3.0. &lt;p&gt;For more basic versions, see 'Basic', '+4' and 'AllAnalogPins'.&lt;p&gt;Requires the installation of a un-shrouded SMD header on the underside of the Teensy 3.0</description>
+<deviceset name="TEENSY_3.0_BASIC-PGM">
+<description>Teensy 3.0 Board outline identical to other 'basic' version except that 'PGM' pin has been omitted.
+&lt;p&gt;See '+4', 'AllAnalogPins", and 'AllPins' packages for additional pin holes, as needed.</description>
 <gates>
-<gate name="G$1" symbol="TEENSY_3.0_ALLPINS" x="0" y="0"/>
+<gate name="G$1" symbol="TEENSY_3.0_BASIC-PGM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TEENSY_3.0_ALLPINS">
+<device name="" package="TEENSY_3.0_BASIC-PGM">
 <connects>
 <connect gate="G$1" pin="0" pad="0"/>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -11270,36 +11235,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$1" pin="21/A7" pad="21/A7"/>
 <connect gate="G$1" pin="22/A8" pad="22/A8"/>
 <connect gate="G$1" pin="23/A9" pad="23/A9"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="27" pad="27"/>
-<connect gate="G$1" pin="28" pad="28"/>
-<connect gate="G$1" pin="29" pad="29"/>
 <connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="3.3V" pad="3.3V 3.3V1 3.3V2"/>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="31" pad="31"/>
-<connect gate="G$1" pin="32" pad="32"/>
-<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V 3.3V1"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A10" pad="A10"/>
-<connect gate="G$1" pin="A11" pad="A11"/>
-<connect gate="G$1" pin="A12" pad="A12"/>
-<connect gate="G$1" pin="A13" pad="A13"/>
 <connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="AREF" pad="AREF"/>
-<connect gate="G$1" pin="GND" pad="GND GND1 GND2"/>
-<connect gate="G$1" pin="PGM" pad="PGM"/>
+<connect gate="G$1" pin="GND" pad="GND GND1"/>
 <connect gate="G$1" pin="RESET" pad="RESET"/>
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
-<connect gate="G$1" pin="VUSB" pad="VUSB"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14252,7 +14200,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R1" library="resistor" deviceset="R-US_" device="M0805" value="100K"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="U$2" library="Teensy3.0" deviceset="TEENSY_3.0_ALLPINS" device=""/>
+<part name="U$2" library="Teensy3.0" deviceset="TEENSY_3.0_BASIC-PGM" device=""/>
 <part name="SPI_CON" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="R5" library="resistor" deviceset="R-US_" device="M0805" value="390K"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="M0805" value="100K"/>
@@ -14324,9 +14272,9 @@ LDK220</text>
 <instance part="R1" gate="G$1" x="340.36" y="-71.12"/>
 <instance part="R3" gate="G$1" x="353.06" y="-55.88" rot="R270"/>
 <instance part="SUPPLY2" gate="GND" x="353.06" y="-81.28"/>
-<instance part="U$2" gate="G$1" x="223.52" y="-68.58" smashed="yes">
-<attribute name="NAME" x="220.472" y="-34.29" size="1.27" layer="95" font="vector" ratio="15"/>
-<attribute name="VALUE" x="220.726" y="-106.68" size="1.27" layer="96" font="vector" ratio="15"/>
+<instance part="U$2" gate="G$1" x="223.52" y="-53.34" smashed="yes">
+<attribute name="NAME" x="220.472" y="-19.05" size="1.27" layer="95" font="vector" ratio="15"/>
+<attribute name="VALUE" x="213.106" y="-27.94" size="1.27" layer="96" font="vector" ratio="15"/>
 </instance>
 <instance part="SPI_CON" gate="A" x="43.18" y="-60.96" rot="MR0"/>
 <instance part="R5" gate="G$1" x="408.94" y="-10.16" rot="R270"/>
@@ -14465,8 +14413,8 @@ LDK220</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="238.76" y1="-48.26" x2="256.54" y2="-48.26" width="0.1524" layer="91"/>
-<label x="241.3" y="-48.26" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-43.18" x2="256.54" y2="-43.18" width="0.1524" layer="91"/>
+<label x="238.76" y="-43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SPI_CON" gate="A" pin="1"/>
@@ -14538,8 +14486,8 @@ LDK220</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VIN"/>
-<wire x1="238.76" y1="-40.64" x2="256.54" y2="-40.64" width="0.1524" layer="91"/>
-<label x="241.3" y="-40.64" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-38.1" x2="256.54" y2="-38.1" width="0.1524" layer="91"/>
+<label x="238.76" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XCOND_EN" class="0">
@@ -14650,8 +14598,8 @@ LDK220</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="17/A3"/>
-<wire x1="238.76" y1="-93.98" x2="256.54" y2="-93.98" width="0.1524" layer="91"/>
-<label x="241.3" y="-93.98" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-66.04" x2="256.54" y2="-66.04" width="0.1524" layer="91"/>
+<label x="238.76" y="-66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PUMP_V+" class="0">
@@ -14728,8 +14676,8 @@ LDK220</text>
 <net name="MCU_V+" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="3.3V"/>
-<wire x1="238.76" y1="-43.18" x2="256.54" y2="-43.18" width="0.1524" layer="91"/>
-<label x="241.3" y="-43.18" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-40.64" x2="256.54" y2="-40.64" width="0.1524" layer="91"/>
+<label x="238.76" y="-40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VCC"/>
@@ -14824,8 +14772,8 @@ LDK220</text>
 <net name="SPI_SCK" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="14/A0"/>
-<wire x1="238.76" y1="-101.6" x2="256.54" y2="-101.6" width="0.1524" layer="91"/>
-<label x="241.3" y="-101.6" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-73.66" x2="256.54" y2="-73.66" width="0.1524" layer="91"/>
+<label x="238.76" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SPI_CON" gate="A" pin="5"/>
@@ -14842,8 +14790,8 @@ LDK220</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="16/A2"/>
-<wire x1="238.76" y1="-96.52" x2="256.54" y2="-96.52" width="0.1524" layer="91"/>
-<label x="241.3" y="-96.52" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-68.58" x2="256.54" y2="-68.58" width="0.1524" layer="91"/>
+<label x="238.76" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="POW0_VMON" class="0">
@@ -14863,8 +14811,8 @@ LDK220</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="23/A9"/>
-<wire x1="238.76" y1="-78.74" x2="256.54" y2="-78.74" width="0.1524" layer="91"/>
-<label x="241.3" y="-78.74" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-50.8" x2="256.54" y2="-50.8" width="0.1524" layer="91"/>
+<label x="238.76" y="-50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="3"/>
@@ -14883,15 +14831,15 @@ LDK220</text>
 <net name="MCU_ADC0" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="18/A4"/>
-<wire x1="238.76" y1="-91.44" x2="256.54" y2="-91.44" width="0.1524" layer="91"/>
-<label x="241.3" y="-91.44" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-63.5" x2="256.54" y2="-63.5" width="0.1524" layer="91"/>
+<label x="238.76" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_ADC1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="19/A5"/>
-<wire x1="238.76" y1="-88.9" x2="256.54" y2="-88.9" width="0.1524" layer="91"/>
-<label x="241.3" y="-88.9" size="1.778" layer="95"/>
+<wire x1="238.76" y1="-60.96" x2="256.54" y2="-60.96" width="0.1524" layer="91"/>
+<label x="238.76" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="POW0_EN" class="0">

@@ -14709,38 +14709,38 @@ LDK220</text>
 </net>
 <net name="SPI_CS" class="0">
 <segment>
-<pinref part="SPI_CON" gate="A" pin="2"/>
-<wire x1="45.72" y1="-55.88" x2="66.04" y2="-55.88" width="0.1524" layer="91"/>
-<label x="55.88" y="-55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="-45.72" x2="190.5" y2="-45.72" width="0.1524" layer="91"/>
 <label x="190.5" y="-45.72" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="SPI_MISO" class="0">
-<segment>
-<pinref part="SPI_CON" gate="A" pin="3"/>
-<wire x1="45.72" y1="-58.42" x2="66.04" y2="-58.42" width="0.1524" layer="91"/>
-<label x="55.88" y="-58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="8"/>
-<wire x1="208.28" y1="-60.96" x2="190.5" y2="-60.96" width="0.1524" layer="91"/>
-<label x="190.5" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="SPI_CON" gate="A" pin="4"/>
 <wire x1="45.72" y1="-60.96" x2="66.04" y2="-60.96" width="0.1524" layer="91"/>
 <label x="55.88" y="-60.96" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="SPI_MISO" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="8"/>
+<wire x1="208.28" y1="-60.96" x2="190.5" y2="-60.96" width="0.1524" layer="91"/>
+<label x="190.5" y="-60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SPI_CON" gate="A" pin="2"/>
+<wire x1="45.72" y1="-55.88" x2="66.04" y2="-55.88" width="0.1524" layer="91"/>
+<label x="55.88" y="-55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="7"/>
 <wire x1="208.28" y1="-58.42" x2="190.5" y2="-58.42" width="0.1524" layer="91"/>
 <label x="190.5" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SPI_CON" gate="A" pin="3"/>
+<wire x1="45.72" y1="-58.42" x2="66.04" y2="-58.42" width="0.1524" layer="91"/>
+<label x="55.88" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="POW1_VMON" class="0">

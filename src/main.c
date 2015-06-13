@@ -60,7 +60,7 @@ static void pwm_start(void)
   /* set pwm 16 bits counter and modulos */
   /* duty is set to 50%, ie. frequency / 2 */
   /* complementary channel inverted from n/2 to n */
-#define PWM_FREQ 100000
+#define PWM_FREQ 50000
   const uint16_t n = pwm_freq_to_counter(PWM_FREQ);
   FTM1_MOD = n;
   FTM1_C0V = n / 2;

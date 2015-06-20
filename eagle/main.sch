@@ -14136,13 +14136,12 @@ input: 5V to 16V
 output: 4V, 150mA (TS5205)
 output: 4V, 200mA (LDK220)</text>
 <text x="226.06" y="10.16" size="1.778" layer="97">load tank cap</text>
-<text x="228.6" y="-38.1" size="1.778" layer="97">Dickson charge pump
+<text x="228.6" y="-43.18" size="1.778" layer="97">Dickson charge pump
 output: input + 5V
 freq:</text>
 <text x="297.18" y="10.16" size="1.778" layer="97">power paths</text>
 <text x="368.3" y="10.16" size="1.778" layer="97">voltage monitoring paths
 4.9:1 divider</text>
-<text x="228.6" y="-43.18" size="1.778" layer="97">TODO: choose caps</text>
 <text x="38.1" y="-58.42" size="1.778" layer="97">SPI connector
 GND
 SPI_MISO

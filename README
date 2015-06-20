@@ -1,0 +1,8 @@
+12V DC power supply multiplexer.
+
+It was primarly designed to get a 2 level redundancy power
+supply. 2 input sources - a 12V AC/DC wall adapter and a
+regulated solar panel - are multiplexed using an application
+specific logic implemented on a microcontroller. In the case
+of a redundant power supply, the logic switches from one
+source to another in case of low voltage detection.

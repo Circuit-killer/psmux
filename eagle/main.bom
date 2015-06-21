@@ -1,74 +1,74 @@
-nand gate
+nand gate [x]
 http://fr.farnell.com/texas-instruments/sn74ahc1g00dckr/ci-logique-porte-non-et-2-entrees/dp/1287496
 3, 5
 0.239
 
-LDO 4.0V
+LDO 4.0V [x]
 http://fr.farnell.com/micrel-semiconductor/mic5205-4-0ym5-tr/ldo-0-165vdo-0-15a-4v-1-5sot23/dp/2219090
 1, 2
 0.375
 
-LDO 4.0V
+LDO 4.0V [x]
 http://fr.farnell.com/stmicroelectronics/ldk220c40r/faible-courant-iq-200-mafaible/dp/2435556
 1, 2
 0.725
 
-schottky diode
+schottky diode [x]
 http://fr.farnell.com/diodes-inc/b140-13-f/diodeschottky40v1asma/dp/1843670
 5, 10
 0.107
 
-mosfet n channel
+mosfet n channel [x]
 http://fr.farnell.com/vishay-siliconix/si4166dy-t1-ge3/mosfet-canal-n-30v-0-0032ohm-30/dp/2335305
 2, 5
 0.715
 
-npn
+npn [x]
 http://fr.farnell.com/multicomp/bc817-40/transistor-npn-0-5a-45v-sot23/dp/1798081
 2, 5
 0.132
 
-resistor 390K
+resistor 390K [x]
 http://fr.farnell.com/vishay-draloric/crcw0805390kfkea/resistance-0805-390k-1/dp/2139075
 2, 10
 0.0126
 
-resistor 100K
+resistor 100K [x]
 http://fr.farnell.com/vishay-draloric/crcw0805100kfkea/resistance-100k-0-125w-1-0805/dp/1469860
 4, 10
 0.02
 
-resistor 10K
+resistor 10K [x]
 http://fr.farnell.com/bourns/cr0805-fx-1002elf/resistance-10k-0-125w-1/dp/1612522
 2, 10
-0.02
+0.04
 
-capacitor electrolytic 100uF 25V
+capacitor electrolytic 100uF 25V [x]
 http://fr.farnell.com/panasonic-electronic-components/eeefk1e101xp/condensateur-elec-alu-100uf-25v/dp/1850109
 1, 5
 0.3
 
-capacitor tantalum 4.7uF 25V
+capacitor tantalum 4.7uF 25V [x]
 http://fr.farnell.com/avx/tajb475k025rnj/condensateur-tantale-4-7uf-25v/dp/197506
 5, 10
 0.397
 
-capacitor tantalum 2.2uF 25V
+capacitor tantalum 2.2uF 25V [x]
 http://fr.farnell.com/avx/tpsb225k025r1200/condensateur-tantale-2-2uf-25v/dp/1432582
 3, 5
 0.317
 
-capacitor mlcc 2.2uF 25V
+capacitor mlcc 2.2uF 25V [x]
 http://fr.farnell.com/wurth-elektronik/885012209016/condensateur-mlcc-x7r-2200pf-25v/dp/2466728
 3, 5
 0.226
 
-capacitor 470pF 100V
+capacitor 470pF 100V [x]
 http://fr.farnell.com/avx/08051c471kat2a/condensateur-mlcc-x7r-470pf-100v/dp/2280665
 1, 10
 0.0842
 
-terminal
+terminal [x]
 http://fr.farnell.com/phoenix-contact/1725698/bornier-sur-ci-6v-2-54mm/dp/3041426
 1, 2
 2.45
